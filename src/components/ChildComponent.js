@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TodoList = ({todos,handleComplete}) => {
+const ChildComponent = ({todos,handleComplete}) => {
   return (
     <div className='todo-list'>
       <h2>Child Component</h2>
@@ -18,4 +18,4 @@ const TodoList = ({todos,handleComplete}) => {
   )
 }
 
-export default TodoList
+export default ChildComponent
